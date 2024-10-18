@@ -1,0 +1,87 @@
+/* HeaderTop.css */
+.header-top {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+}
+
+.ht-80 {
+    min-height: 80px;
+}
+
+.head-content h6 {
+    font-size: 14px;
+    color: #555;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.head-content h2 {
+    font-size: 36px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.head-content h2 span.ityped {
+    color: #007bff;
+    font-weight: bold;
+}
+
+.head-content p {
+    font-size: 16px;
+    color: #666;
+    margin: 15px 0 0;
+}
+
+.text-slider-main {
+    margin-top: 30px;
+}
+
+.text-slider2 .marquee_text {
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    background-color: #e9ecef;
+    padding: 10px 0;
+}
+
+.js-marquee-wrapper {
+    display: inline-block;
+    animation: marqueeAnimation 15s linear infinite;
+}
+
+.js-marquee {
+    display: inline-block;
+    margin-right: 50px;
+    font-size: 16px;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.js-marquee img {
+    vertical-align: middle;
+    margin: 0 10px;
+}
+
+/* Keyframes for marquee effect */
+@keyframes marqueeAnimation {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@media (max-width: 768px) {
+    .head-content h2 {
+        font-size: 28px;
+    }
+
+    .head-content p {
+        font-size: 14px;
+    }
+
+    .text-slider2 .js-marquee-wrapper {
+        animation-duration: 25s; /* Slower on smaller screens */
+    }
+}

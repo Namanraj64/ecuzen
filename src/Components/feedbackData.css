@@ -1,0 +1,26 @@
+@keyframes zoomIn {
+    from {
+      transform: scale(0.3);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .animated.zoomIn {
+    animation: zoomIn 0.5s;
+  }
+  
+  .animated.fadeIn {
+    animation: fadeIn 0.5s;
+  }
+  
