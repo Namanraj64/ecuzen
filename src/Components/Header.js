@@ -13,7 +13,6 @@ const Header = () => {
             <p>
             Transforming Ideas into Reality: India's Leading Web Development Company
             </p>
-        <h1>jghfhgyudghfygeygfyhf</h1>
 
 
           </div>

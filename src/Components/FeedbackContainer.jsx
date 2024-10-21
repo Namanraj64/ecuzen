@@ -1,7 +1,7 @@
 import React from "react";
 import Carousel from "react-material-ui-carousel";
 import { Container, Typography, Grid, Avatar, Box, Rating } from "@mui/material";
-import './feedbackData.css'
+// import './feedbackData.css'
 
 const feedbackData = [
   {
